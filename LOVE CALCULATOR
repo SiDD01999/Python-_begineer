@@ -1,0 +1,24 @@
+print("LOVE CALCULATOR")
+name1=str(input("Enter first name: "))
+name2=str(input("Enter second name: "))
+combined=name1+name2
+combined=combined.lower()
+t=combined.count("t")
+r=combined.count("r")
+u=combined.count("u")
+e=combined.count("e")
+true=t+r+u+e
+l=combined.count("l")
+o=combined.count("o")
+v=combined.count("v")
+e=combined.count("e")
+love=l+o+v+e
+SCORE=str(true)+str(love)
+SCORE=int(SCORE)
+
+if SCORE<10 or SCORE>90 :
+    print(f"Your Score is {SCORE}, you go together like coke and mentos")
+elif 40<=SCORE<=50:
+    print(f"Your Score is {SCORE},you are alright together")
+else:
+    print(f"Your Score is {SCORE}")

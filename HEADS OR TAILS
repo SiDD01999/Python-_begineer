@@ -1,0 +1,9 @@
+import random
+
+
+Toss=str(input("Choose Heads or Tails"))
+randomtoss=random.randint(0,1)
+if randomtoss==0:
+    print("Heads")
+else:
+    print("Tails")

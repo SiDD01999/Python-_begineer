@@ -1,0 +1,15 @@
+map1=['🏐','🏐','🏐']
+map2=['🏐','🏐','🏐']
+map3=['🏐','🏐','🏐']
+maps=[map1,map2,map3]
+print(f"{map1}\n{map2}\n{map3}")
+
+position=input("Enter the Coordinates of your choice in format (column,rows)")
+
+
+horizontal=int(position[0])
+verticle=int(position[1])
+
+maps[verticle-1][horizontal-1]="X"
+
+print(f"{map1}\n{map2}\n{map3}")
